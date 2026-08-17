@@ -1,0 +1,21 @@
+# Runtime logs
+*.log
+
+# Process IDs and runtime sockets
+*.pid
+*.sock
+
+# Redis persistence data
+redis-servers/node-6380/data/
+redis-servers/node-6381/data/
+redis-servers/sentinel/data/
+
+# Redis/Sentinel mutable configuration (seeded from tracked *.conf files)
+redis-servers/*/.runtime.conf
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
